@@ -1,8 +1,9 @@
 # django-ml-app
 
-[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
-
 Aplicação Django simples que demonstra a integração de um modelo de Machine Learning (Random Forest) para predição (ex.: Iris dataset). Ideal para exemplos, testes e demonstrações locais.
+
+<img width="633" height="451" alt="image" src="https://github.com/user-attachments/assets/5574c2bf-3c60-481a-b6dc-05709c83794b" />
+
 
 ## ✅ Principais pontos
 
@@ -82,8 +83,7 @@ Resumo técnico
 
 Resultados (exemplo)
 
-- Acurácia obtida no conjunto de validação: ~98% (valor ilustrativo — confira `train.py` para métricas exatas do treinamento que foi realizado neste repositório).
-- Observações: métricas detalhadas (precision/recall/f1, matriz de confusão) podem ser encontradas/geradas pelo script de treino.
+- Aplicação Web para a visualização fácil de predições do dataset Iris
 
 Arquitetura (visão de alto nível)
 
@@ -96,7 +96,7 @@ Arquitetura (visão de alto nível)
 
 Arquivos de interesse (para apresentação)
 
-- `train.py` — código do treinamento e geração de métricas
+- `train.py` — código do treinamento
 - `predictor/services.py` — funções que carregam o modelo e realizam predições
 - `predictor/views.py` e `templates/predictor/predict_form.html` — fluxo de entrada/saída para o usuário
 - `predictor/model/iris_rf.joblib` — exemplo do modelo salvo
