@@ -70,7 +70,7 @@ Visão curta
 
 Destaques
 
-- Modelo: Random Forest treinado e salvo em `predictor/model/iris_rf.joblib` (exemplo).
+- Modelo: Random Forest treinado e salvo em `predictor/model/iris_rf.joblib`.
 - Estrutura: app Django (`predictor`) que encapsula a carga do modelo, lógica de predição e templates para interação.
 - Código principal: `train.py` (treinamento), `predictor/services.py` (carregamento do modelo e lógica de predição) e `predictor/views.py` (integração com templates).
 
