@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+venv/
+django/   # se esse diretório é o venv que está no repositório e você não quer subi-lo
+
+# Django
+db.sqlite3
+media/
+
+# IDEs
+.vscode/
+.idea/
